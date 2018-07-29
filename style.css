@@ -1,4 +1,4 @@
-/* Style all input fields */
+/* input fields */
 input {
     width: 100%;
     padding: 12px;
@@ -9,13 +9,13 @@ input {
     margin-bottom: 16px;
 }
 
-/* Style the submit button */
-input[type=submit] {
+/* submit button */
+input[type=signup] {
     background-color: #4CAF50;
     color: white;
 }
 
-/* Style the container for inputs */
+/* container for inputs */
 .container {
     background-color: #f1f1f1;
     padding: 10px;
@@ -34,25 +34,4 @@ input[type=submit] {
 #message p {
     padding: 10px 35px;
     font-size: 18px;
-}
-
-/* Add a green text color and a checkmark when the requirements are right */
-.valid {
-    color: green;
-}
-
-.valid:before {
-    position: relative;
-    left: -35px;
-}
-
-/* Add a red text color and an "x" icon when the requirements are wrong */
-.invalid {
-    color: red;
-}
-
-.invalid:before {
-    position: relative;
-    left: -35px;
-    
 }
