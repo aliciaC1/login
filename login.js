@@ -22,7 +22,6 @@
     
     //used email sign in but can change it - the others are a bit more involved but could figure it out
     signInOptions: [
-      // Leave the lines as is for the providers you want to offer your users.
       //firebase.auth.GoogleAuthProvider.PROVIDER_ID,
       //firebase.auth.FacebookAuthProvider.PROVIDER_ID,
       //firebase.auth.TwitterAuthProvider.PROVIDER_ID,
